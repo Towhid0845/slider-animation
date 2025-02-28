@@ -1,0 +1,440 @@
+/*--------------------------------------------------------------
+# Slider
+--------------------------------------------------------------*/
+
+.slider_section {
+  position: relative;
+  margin: 145px 0;
+  min-height: 100vh;
+
+  .slider_carousel {
+    width: 762px;
+    height: 776px;
+    margin: auto;
+    border: 1px solid #d9d9d9;
+    border-radius: 50% 50% 1px 1px;
+
+    .slider_item {
+      border-radius: 45% 45% 0 0;
+      .slider_content {
+        margin-top: 140px;
+        .content_item {
+          width: 643px;
+          justify-content: space-between;
+          border: 4px solid #fff;
+          border-width: 4px;
+          border-radius: 24px;
+          padding-right: 32px;
+          background-color: #fff;
+          box-shadow: 0px 40px 40px 0px #00000026;
+          .left_content {
+            .image_box {
+              width: 143px;
+              gap: 3px;
+              img {
+                width: 70px;
+                height: 60px;
+              }
+            }
+
+            .text {
+              width: 209px;
+            }
+          }
+
+          .right_content {
+            width: 40px;
+            height: 40px;
+            border-radius: 20px;
+            background-color: #d91e10;
+          }
+        }
+        .content_two {
+          .rect_1 {
+            width: 97px;
+            height: 123px;
+            border-top-left-radius: 24px;
+            border-bottom-left-radius: 24px;
+            background-color: rgba(240, 239, 246, 1);
+          }
+          .rect_2 {
+            width: 41px;
+            height: 60px;
+            left: 101px;
+
+            background-color: rgba(240, 239, 246, 1);
+          }
+        }
+        .content_three {
+          .rect_3 {
+            width: 140px;
+            height: 123px;
+            border-top-left-radius: 24px;
+            border-bottom-left-radius: 24px;
+            font-size: 45px;
+            background-color: rgba(240, 239, 246, 1);
+          }
+        }
+      }
+    }
+
+    .item_1 {
+      background: radial-gradient(
+          ellipse 200px 300px at 208.24px 630.79px,
+          rgba(175, 82, 222, 0.2),
+          transparent
+        ),
+        radial-gradient(
+          ellipse 200px 300px at 500.24px 630.79px,
+          rgba(255, 204, 0, 0.2),
+          transparent
+        ),
+        radial-gradient(
+          ellipse 200px 300px at 450.24px 330.79px,
+          rgba(0, 199, 190, 0.2),
+          transparent
+        ),
+        radial-gradient(
+          ellipse 200px 300px at 250.24px 400.79px,
+          rgba(0, 122, 255, 0.2),
+          transparent
+        ),
+        radial-gradient(
+          ellipse 200px 300px at 450.24px 150.79px,
+          rgba(175, 82, 222, 0.05),
+          transparent
+        ),
+        radial-gradient(
+          ellipse 200px 300px at 100.24px 100.79px,
+          rgba(52, 199, 89, 0.05),
+          transparent
+        ),
+        transparent;
+
+      width: 100%;
+      height: 100vh;
+      position: relative;
+    }
+    .item_2 {
+      border-radius: 45% 45% 0 0;
+      height: 100vh;
+      background: radial-gradient(
+          ellipse 200px 300px at 208.24px 630.79px,
+          rgba(255, 45, 85, 0.2),
+          transparent
+        ),
+        radial-gradient(
+          ellipse 200px 300px at 500.24px 630.79px,
+          rgba(255, 204, 0, 0.2),
+          transparent
+        ),
+        radial-gradient(
+          ellipse 200px 300px at 450.24px 330.79px,
+          rgba(0, 199, 190, 0.2),
+          transparent
+        ),
+        radial-gradient(
+          ellipse 200px 300px at 250.24px 400.79px,
+          rgba(255, 204, 0, 0.05),
+          transparent
+        ),
+        radial-gradient(
+          ellipse 200px 300px at 450.24px 150.79px,
+          rgba(255, 45, 85, 0.05),
+          transparent
+        ),
+        radial-gradient(
+          ellipse 200px 300px at 100.24px 100.79px,
+          rgba(50, 173, 230, 0.05),
+          transparent
+        ),
+        transparent;
+      .map_card {
+        width: 524px;
+        margin-left: 80px;
+        border-radius: 40px;
+
+        box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.15);
+
+        & > img {
+          border-radius: 40px 40px 0 0;
+          height: 319px;
+        }
+
+        .card-body {
+          background-color: #fdfdfd;
+        }
+      }
+      .icon {
+        font-size: 35px;
+      }
+      .shoe {
+        width: 303px;
+        height: 303px;
+        box-shadow: -40px 40px 60px 0px rgba(0, 0, 0, 0.15);
+        img {
+          border-radius: 32px;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+        top: 18px;
+        right: 70px;
+      }
+
+      .map_icon {
+        top: 100px;
+        left: 288px;
+        font-size: 50px;
+      }
+      .arrow {
+        top: 152px;
+        left: 48px;
+      }
+      h6 {
+        top: 5px;
+        right: 60px;
+        border-radius: 35px;
+        padding: 15px 30px;
+        background-color: rgba(254, 246, 85, 1);
+        transform: rotate(15deg);
+        color: #000000;
+      }
+    }
+
+    .item_3 {
+      height: 100vh;
+      border-radius: 45% 45% 0 0;
+      background: radial-gradient(
+          ellipse 200px 300px at 208.24px 630.79px,
+          rgba(50, 173, 230, 0.2),
+          transparent
+        ),
+        radial-gradient(
+          ellipse 200px 300px at 500.24px 630.79px,
+          rgba(88, 86, 214, 0.2),
+          transparent
+        ),
+        radial-gradient(
+          ellipse 200px 300px at 450.24px 330.79px,
+          rgba(0, 199, 190, 0.2),
+          transparent
+        ),
+        radial-gradient(
+          ellipse 200px 300px at 250.24px 400.79px,
+          rgba(255, 204, 0, 0.05),
+          transparent
+        ),
+        radial-gradient(
+          ellipse 200px 300px at 450.24px 150.79px,
+          rgba(255, 45, 85, 0.05),
+          transparent
+        ),
+        radial-gradient(
+          ellipse 200px 300px at 100.24px 100.79px,
+          rgba(50, 173, 230, 0.05),
+          transparent
+        ),
+        transparent;
+      .icon {
+        font-size: 24px;
+      }
+
+      .content_card {
+        width: 552px;
+        height: 478px;
+        gap: 66px;
+        border-radius: 40px;
+        padding: 42px;
+        background-color: #fff;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+      }
+      .v_line {
+        width: 53px;
+        height: 12px;
+        border-radius: 6px;
+        background-color: rgba(231, 231, 231, 1);
+        margin-bottom: 10px;
+      }
+      .v_line2 {
+        background-color: rgba(180, 221, 59, 1);
+        height: 182px;
+      }
+      .v_line3 {
+        background-color: rgba(158, 103, 255, 1);
+        height: 145px;
+      }
+      .v_line4 {
+        background-color: rgba(253, 139, 137, 1);
+        height: 204px;
+      }
+      .v_line5 {
+        background-color: rgba(233, 215, 57, 1);
+        height: 137px;
+      }
+      .v_line6 {
+        background-color: rgba(254, 138, 140, 1);
+        height: 167px;
+      }
+      .v_line7 {
+        background-color: rgba(170, 106, 255, 1);
+        height: 251px;
+      }
+
+      .rect {
+        width: 10px;
+        height: 10px;
+        border-radius: 15px;
+        background-color: rgba(228, 225, 226, 1);
+      }
+
+      .graph {
+        gap: 30px;
+      }
+    }
+
+    .item_4 {
+      height: 100vh;
+      border-radius: 45% 45% 0 0;
+      background: radial-gradient(
+          ellipse 200px 300px at 208.24px 630.79px,
+          rgba(52, 199, 89, 0.1),
+          transparent
+        ),
+        radial-gradient(
+          ellipse 200px 300px at 500.24px 630.79px,
+          rgba(50, 173, 230, 0.2),
+          transparent
+        ),
+        radial-gradient(
+          ellipse 200px 300px at 450.24px 330.79px,
+          rgba(0, 199, 190, 0.2),
+          transparent
+        ),
+        radial-gradient(
+          ellipse 200px 300px at 250.24px 400.79px,
+          rgba(255, 204, 0, 0.05),
+          transparent
+        ),
+        radial-gradient(
+          ellipse 200px 300px at 450.24px 150.79px,
+          rgba(48, 176, 199, 0.05),
+          transparent
+        ),
+        radial-gradient(
+          ellipse 200px 300px at 100.24px 100.79px,
+          rgba(50, 173, 230, 0.05),
+          transparent
+        ),
+        transparent;
+
+      .content_card {
+        width: 634px;
+        height: 467px;
+      }
+
+      .formula {
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 77.45px;
+        letter-spacing: 0%;
+      }
+
+      .v_line9 {
+        background-color: rgba(52, 199, 89, 1);
+      }
+
+      .graph {
+        gap: 47px;
+      }
+    }
+  }
+
+  .slider_thumb {
+    max-width: 704px;
+    bottom: -116px;
+    .thumb_image {
+      display: block;
+      position: relative;
+      transition: all 500ms ease;
+      cursor: pointer;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+
+    .slick-slide {
+      margin: 0 23px 10px;
+      margin-top: 110px !important;
+      // opacity: 0.5;
+      border-radius: 24px;
+      padding: 18px;
+      background-color: #fff;
+      box-shadow: 0px 4px 4px 0px #0000002e;
+      padding: 18px;
+      width: 86px !important;
+      // display: flex;
+      // justify-content: center;
+
+      .thumb_image {
+        width: 50px;
+        height: 50px;
+      }
+    }
+
+    // center
+    .slick-slide.slick-active.slick-current.slick-center {
+      margin-top: 0px !important;
+      width: 116px !important;
+
+      .thumb_image {
+        width: 80px;
+        height: 80px;
+      }
+    }
+    // previous
+.slick-slide:has(+ .slick-center) {
+  margin-top: 40px !important;
+  width: 96px !important;
+  .thumb_image {
+    width: 60px;
+    height: 60px;
+  }
+}
+// next
+
+  .slick-slide.slick-active.slick-current.slick-center
+  + .slick-slide {
+  margin-top: 40px !important;
+  width: 96px !important;
+  .thumb_image {
+    width: 60px;
+    height: 60px;
+  }
+}
+  }
+}
+
+
+.arrow_down{
+  bottom: -100px;
+  left: 48%;
+}
+
+
+.slider_thumb
+  .slick-slide.slick-active.slick-current.slick-center
+  .thumb_image::after {
+  visibility: visible;
+  transform: scale(1);
+}
+.slider_item {
+  position: relative;
+  transition: all 500ms ease;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
