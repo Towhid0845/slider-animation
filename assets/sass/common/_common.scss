@@ -115,3 +115,20 @@ p {
 .placeholder2 {
     min-height: .6em !important;
 }
+
+@media (max-width: 767px) {
+.placeholder {
+    min-height: 1em !important;
+}
+.placeholder2 {
+    min-height: .5em !important;
+}
+}
+@media (max-width: 575px) {
+.placeholder {
+    min-height: .8em !important;
+}
+.placeholder2 {
+    min-height: .4em !important;
+}
+}
