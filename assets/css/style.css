@@ -333,7 +333,7 @@ p {
   object-fit: cover;
 }
 .slider_section .slider_thumb .slick-slide {
-  margin: 0 23px 10px;
+  margin: 0 20px 10px 25.5px;
   margin-top: 110px !important;
   border-radius: 24px;
   padding: 18px;
@@ -341,6 +341,7 @@ p {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1803921569);
   padding: 18px;
   width: 86px !important;
+  transition: var(--bs-transition);
 }
 .slider_section .slider_thumb .slick-slide .thumb_image {
   width: 50px;
@@ -370,23 +371,10 @@ p {
   width: 60px;
   height: 60px;
 }
-
-.arrow_down {
+.slider_section .arrow_down {
   bottom: -100px;
   left: 48%;
-}
-
-.slider_thumb .slick-slide.slick-active.slick-current.slick-center .thumb_image::after {
-  visibility: visible;
-  transform: scale(1);
-}
-
-.slider_item {
-  position: relative;
-  transition: all 500ms ease;
-  display: flex;
-  align-items: center;
-  gap: 30px;
+  width: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */

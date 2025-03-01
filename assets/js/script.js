@@ -27,10 +27,11 @@ $(document).ready(function () {
     slidesToShow: 1,
     slidesToScroll: 1,
     asNavFor: ".slider_thumb",
-    autoplay: false,
+    autoplay: true,
     dots: false,
     centerPadding: 0,
     arrows: false,
+    speed: 1000, 
     nextArrow:
       '<button class="next"><i class="icon-right-arrow-two1"></i></button>',
     prevArrow:
@@ -41,7 +42,7 @@ $(document).ready(function () {
   $(".slider_thumb").slick({
     slidesToShow: 5,
     slidesToScroll: 1,
-    autoplay: false,
+    autoplay: true,
     centerMode: true,
     asNavFor: ".slider_carousel",
     focusOnSelect: true,
@@ -50,5 +51,7 @@ $(document).ready(function () {
     dots: false,
     centerPadding: 0,
     arrows: false,
+    autoplaySpeed: 2000, 
+    speed: 1000, 
   });
 });
