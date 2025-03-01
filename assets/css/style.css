@@ -116,22 +116,23 @@ p {
 # Slider
 --------------------------------------------------------------*/
 .slider_section {
+  padding-bottom: 150px;
+}
+.slider_section .slider_wrapper {
   position: relative;
-  margin: 145px 0;
-  min-height: 100vh;
 }
 .slider_section .slider_carousel {
   width: 762px;
   height: 776px;
-  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 100px 0 0;
   border: 1px solid #d9d9d9;
   border-radius: 50% 50% 1px 1px;
 }
 .slider_section .slider_carousel .slider_item {
   border-radius: 45% 45% 0 0;
-}
-.slider_section .slider_carousel .slider_item .slider_content {
-  margin-top: 140px;
 }
 .slider_section .slider_carousel .slider_item .slider_content .content_item {
   width: 643px;
@@ -182,15 +183,11 @@ p {
   background-color: rgb(240, 239, 246);
 }
 .slider_section .slider_carousel .item_1 {
-  background: radial-gradient(ellipse 200px 300px at 208.24px 630.79px, rgba(175, 82, 222, 0.2), transparent), radial-gradient(ellipse 200px 300px at 500.24px 630.79px, rgba(255, 204, 0, 0.2), transparent), radial-gradient(ellipse 200px 300px at 450.24px 330.79px, rgba(0, 199, 190, 0.2), transparent), radial-gradient(ellipse 200px 300px at 250.24px 400.79px, rgba(0, 122, 255, 0.2), transparent), radial-gradient(ellipse 200px 300px at 450.24px 150.79px, rgba(175, 82, 222, 0.05), transparent), radial-gradient(ellipse 200px 300px at 100.24px 100.79px, rgba(52, 199, 89, 0.05), transparent), transparent;
   width: 100%;
-  height: 100vh;
   position: relative;
 }
 .slider_section .slider_carousel .item_2 {
   border-radius: 45% 45% 0 0;
-  height: 100vh;
-  background: radial-gradient(ellipse 200px 300px at 208.24px 630.79px, rgba(255, 45, 85, 0.2), transparent), radial-gradient(ellipse 200px 300px at 500.24px 630.79px, rgba(255, 204, 0, 0.2), transparent), radial-gradient(ellipse 200px 300px at 450.24px 330.79px, rgba(0, 199, 190, 0.2), transparent), radial-gradient(ellipse 200px 300px at 250.24px 400.79px, rgba(255, 204, 0, 0.05), transparent), radial-gradient(ellipse 200px 300px at 450.24px 150.79px, rgba(255, 45, 85, 0.05), transparent), radial-gradient(ellipse 200px 300px at 100.24px 100.79px, rgba(50, 173, 230, 0.05), transparent), transparent;
 }
 .slider_section .slider_carousel .item_2 .map_card {
   width: 524px;
@@ -240,9 +237,7 @@ p {
   color: #000000;
 }
 .slider_section .slider_carousel .item_3 {
-  height: 100vh;
   border-radius: 45% 45% 0 0;
-  background: radial-gradient(ellipse 200px 300px at 208.24px 630.79px, rgba(50, 173, 230, 0.2), transparent), radial-gradient(ellipse 200px 300px at 500.24px 630.79px, rgba(88, 86, 214, 0.2), transparent), radial-gradient(ellipse 200px 300px at 450.24px 330.79px, rgba(0, 199, 190, 0.2), transparent), radial-gradient(ellipse 200px 300px at 250.24px 400.79px, rgba(255, 204, 0, 0.05), transparent), radial-gradient(ellipse 200px 300px at 450.24px 150.79px, rgba(255, 45, 85, 0.05), transparent), radial-gradient(ellipse 200px 300px at 100.24px 100.79px, rgba(50, 173, 230, 0.05), transparent), transparent;
 }
 .slider_section .slider_carousel .item_3 .icon {
   font-size: 24px;
@@ -297,9 +292,7 @@ p {
   gap: 30px;
 }
 .slider_section .slider_carousel .item_4 {
-  height: 100vh;
   border-radius: 45% 45% 0 0;
-  background: radial-gradient(ellipse 200px 300px at 208.24px 630.79px, rgba(52, 199, 89, 0.1), transparent), radial-gradient(ellipse 200px 300px at 500.24px 630.79px, rgba(50, 173, 230, 0.2), transparent), radial-gradient(ellipse 200px 300px at 450.24px 330.79px, rgba(0, 199, 190, 0.2), transparent), radial-gradient(ellipse 200px 300px at 250.24px 400.79px, rgba(255, 204, 0, 0.05), transparent), radial-gradient(ellipse 200px 300px at 450.24px 150.79px, rgba(48, 176, 199, 0.05), transparent), radial-gradient(ellipse 200px 300px at 100.24px 100.79px, rgba(50, 173, 230, 0.05), transparent), transparent;
 }
 .slider_section .slider_carousel .item_4 .content_card {
   width: 634px;
@@ -319,7 +312,7 @@ p {
 }
 .slider_section .slider_thumb {
   max-width: 704px;
-  bottom: -116px;
+  margin-top: -90px;
 }
 .slider_section .slider_thumb .thumb_image {
   display: block;
@@ -372,7 +365,7 @@ p {
   height: 60px;
 }
 .slider_section .arrow_down {
-  bottom: -100px;
+  bottom: 0px;
   left: 48%;
   width: 50px;
 }
